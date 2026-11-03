@@ -1,0 +1,14 @@
+{
+  "name": "lab1-ts-vitest",
+  "version": "1.0.0",
+  "description": "Cross-platform TypeScript project with Vitest",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}
