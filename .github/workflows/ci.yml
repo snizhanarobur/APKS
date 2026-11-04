@@ -18,7 +18,11 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
+<<<<<<< HEAD
+        run: npm install
+=======
         run: npm ci
+>>>>>>> 850b6ea25f6b8587b3db93d70b7bfdc7d1ad643b
       - name: Run tests
         run: npm test
       - name: Build project
